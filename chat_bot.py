@@ -31,7 +31,7 @@ def text_message(bot, update):
             if response:
                 bot.send_message(chat_id=update.message.chat_id, text=response)
             else:
-                bot.send_message(chat_id=update.message.chat_id, text='Я Вас не совсем поняла (Паша гей)!')
+                bot.send_message(chat_id=update.message.chat_id, text='Я Вас не совсем поняла!')
 
 
 def sticker_handler(bot, update):
